@@ -1,0 +1,47 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(153, 129, 129);
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(139, 100, 100);
+}
+
+div.background {
+  background: url(/images/background\ coffee.jpeg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+p {
+  width: 50%;
+}
